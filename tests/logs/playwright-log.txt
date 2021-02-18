@@ -1,0 +1,142 @@
+{"level":30,"time":"2021-02-15T21:22:02.804Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Listening on 55988"}
+{"level":30,"time":"2021-02-15T21:22:03.254Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changed active context"}
+{"level":30,"time":"2021-02-15T21:22:03.350Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Video path: undefined"}
+{"level":30,"time":"2021-02-15T21:22:03.350Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changed active page"}
+{"level":30,"time":"2021-02-15T21:22:08.973Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changed active context"}
+{"level":30,"time":"2021-02-15T21:22:08.973Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changing current active page"}
+{"level":30,"time":"2021-02-15T21:22:08.973Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changed active page"}
+{"level":30,"time":"2021-02-15T21:22:08.999Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changed active context"}
+{"level":30,"time":"2021-02-15T21:22:09.000Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changing current active page"}
+{"level":30,"time":"2021-02-15T21:22:09.000Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changed active page"}
+{"level":30,"time":"2021-02-15T21:22:09.028Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changed active context"}
+{"level":30,"time":"2021-02-15T21:22:09.160Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Video path: undefined"}
+{"level":30,"time":"2021-02-15T21:22:09.160Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changed active page"}
+{"level":30,"time":"2021-02-15T21:22:15.147Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changed active context"}
+{"level":30,"time":"2021-02-15T21:22:15.147Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changing current active page"}
+{"level":30,"time":"2021-02-15T21:22:15.147Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changed active page"}
+{"level":30,"time":"2021-02-15T21:22:15.168Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changed active context"}
+{"level":30,"time":"2021-02-15T21:22:15.168Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changing current active page"}
+{"level":30,"time":"2021-02-15T21:22:15.168Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changed active page"}
+{"level":30,"time":"2021-02-15T21:22:15.193Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changed active context"}
+{"level":30,"time":"2021-02-15T21:22:15.291Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Video path: undefined"}
+{"level":30,"time":"2021-02-15T21:22:15.292Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changed active page"}
+{"level":30,"time":"2021-02-15T21:22:18.443Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changed active context"}
+{"level":30,"time":"2021-02-15T21:22:18.443Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changing current active page"}
+{"level":30,"time":"2021-02-15T21:22:18.443Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changed active page"}
+{"level":30,"time":"2021-02-15T21:22:18.462Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changed active context"}
+{"level":30,"time":"2021-02-15T21:22:18.462Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changing current active page"}
+{"level":30,"time":"2021-02-15T21:22:18.462Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changed active page"}
+{"level":30,"time":"2021-02-15T21:22:18.486Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changed active context"}
+{"level":30,"time":"2021-02-15T21:22:18.588Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Video path: undefined"}
+{"level":30,"time":"2021-02-15T21:22:18.588Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changed active page"}
+================= Original suppressed error =================
+page.screenshot: Protocol error (Page.captureScreenshot): Target closed.
+Note: use DEBUG=pw:api environment variable and rerun to capture Playwright logs.
+    at Connection.sendMessageToServer (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:15)
+    at Proxy.<anonymous> (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:44:61)
+    at c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:371:48
+    at Page._wrapApiCall (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:72:34)
+    at Page.screenshot (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:367:21)
+    at Object.<anonymous> (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:66479:47)
+    at step (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:66432:23)
+    at Object.next (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:66413:53)
+    at c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:66407:71
+    at new Promise (<anonymous>)
+=============================================================
+================= Original suppressed error =================
+page.screenshot: Target page, context or browser has been closed
+    at Connection.sendMessageToServer (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:15)
+    at Proxy.<anonymous> (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:44:61)
+    at c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:371:48
+    at Page._wrapApiCall (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:72:34)
+    at Page.screenshot (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:367:21)
+    at Object.<anonymous> (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:66479:47)
+    at step (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:66432:23)
+    at Object.next (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:66413:53)
+    at c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:66407:71
+    at new Promise (<anonymous>)
+=============================================================
+{"level":30,"time":"2021-02-15T21:22:21.215Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changed active context"}
+{"level":30,"time":"2021-02-15T21:22:21.215Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changing current active page"}
+{"level":30,"time":"2021-02-15T21:22:21.216Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changed active page"}
+================= Original suppressed error =================
+page.bringToFront: Target page, context or browser has been closed
+    at Connection.sendMessageToServer (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:15)
+    at Proxy.<anonymous> (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:44:61)
+    at c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:385:33
+    at Page._wrapApiCall (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:72:34)
+    at Page.bringToFront (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:384:21)
+    at BrowserState.<anonymous> (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:70747:53)
+    at step (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:70332:23)
+    at Object.next (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:70313:53)
+    at c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:70307:71
+    at new Promise (<anonymous>)
+=============================================================
+================= Original suppressed error =================
+browserContext.newPage: Target page, context or browser has been closed
+    at Connection.sendMessageToServer (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:15)
+    at Proxy.<anonymous> (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:44:61)
+    at c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\browserContext.js:95:58
+    at ChromiumBrowserContext._wrapApiCall (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:72:34)
+    at ChromiumBrowserContext.newPage (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\browserContext.js:92:21)
+    at c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:70478:54
+    at step (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:70332:23)
+    at Object.next (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:70313:53)
+    at c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:70307:71
+    at new Promise (<anonymous>)
+=============================================================
+================= Original suppressed error =================
+page.screenshot: Target page, context or browser has been closed
+    at Connection.sendMessageToServer (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:15)
+    at Proxy.<anonymous> (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:44:61)
+    at c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:371:48
+    at Page._wrapApiCall (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:72:34)
+    at Page.screenshot (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:367:21)
+    at Object.<anonymous> (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:66479:47)
+    at step (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:66432:23)
+    at Object.next (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:66413:53)
+    at c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:66407:71
+    at new Promise (<anonymous>)
+=============================================================
+================= Original suppressed error =================
+page.screenshot: Target page, context or browser has been closed
+    at Connection.sendMessageToServer (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:15)
+    at Proxy.<anonymous> (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:44:61)
+    at c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:371:48
+    at Page._wrapApiCall (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:72:34)
+    at Page.screenshot (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:367:21)
+    at Object.<anonymous> (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:66479:47)
+    at step (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:66432:23)
+    at Object.next (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:66413:53)
+    at c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:66407:71
+    at new Promise (<anonymous>)
+=============================================================
+================= Original suppressed error =================
+page.screenshot: Target page, context or browser has been closed
+    at Connection.sendMessageToServer (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:15)
+    at Proxy.<anonymous> (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:44:61)
+    at c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:371:48
+    at Page._wrapApiCall (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:72:34)
+    at Page.screenshot (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:367:21)
+    at Object.<anonymous> (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:66479:47)
+    at step (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:66432:23)
+    at Object.next (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:66413:53)
+    at c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:66407:71
+    at new Promise (<anonymous>)
+=============================================================
+{"level":30,"time":"2021-02-15T21:22:21.278Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changed active context"}
+{"level":30,"time":"2021-02-15T21:22:21.278Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changing current active page"}
+{"level":30,"time":"2021-02-15T21:22:21.278Z","pid":2096,"hostname":"DESKTOP-L61TJ91","msg":"Changed active page"}
+================= Original suppressed error =================
+page.bringToFront: Target page, context or browser has been closed
+    at Connection.sendMessageToServer (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\connection.js:69:15)
+    at Proxy.<anonymous> (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:44:61)
+    at c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:385:33
+    at Page._wrapApiCall (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\channelOwner.js:72:34)
+    at Page.bringToFront (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\node_modules\playwright\lib\client\page.js:384:21)
+    at BrowserState.<anonymous> (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:70747:53)
+    at step (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:70332:23)
+    at Object.next (c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:70313:53)
+    at c:\users\as\appdata\local\programs\python\python39\lib\site-packages\Browser\wrapper\index.js:70307:71
+    at new Promise (<anonymous>)
+=============================================================

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.9.0 on win32)" generated="20210215 18:22:02.001" rpa="false">
+<suite id="s1" name="Login" source="c:\rfw\parodify\tests\login.robot">
+<test id="s1-t1" name="Login com Sucesso">
+<kw name="New Page" library="Browser">
+<tags>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+</tags>
+<doc>Open a new Page. A Page is the Playwright equivalent to a tab.
+See `Browser, Context and Page` for more information about Page concept.
+Returns a stable identifier for the created page.</doc>
+<arguments>
+<arg>https://parodify.herokuapp.com/users/sign_in</arg>
+</arguments>
+<msg timestamp="20210215 18:22:08.502" level="INFO">Successfully initialized new page object and opened url: https://parodify.herokuapp.com/users/sign_in</msg>
+<status status="PASS" starttime="20210215 18:22:02.874" endtime="20210215 18:22:08.502"></status>
+</kw>
+<kw name="Login With">
+<arguments>
+<arg>papito@parodify.com</arg>
+<arg>pwd123</arg>
+</arguments>
+<msg timestamp="20210215 18:22:08.505" level="FAIL">No keyword with name 'Login With' found.</msg>
+<status status="FAIL" starttime="20210215 18:22:08.505" endtime="20210215 18:22:08.505"></status>
+</kw>
+<kw name="Take Screenshot" library="Browser" type="teardown">
+<tags>
+<tag>PageContent</tag>
+</tags>
+<doc>Takes a screenshot of the current window and saves it to ``path``. Saves it as a png.</doc>
+<msg timestamp="20210215 18:22:08.954" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-11.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-11.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210215 18:22:08.506" endtime="20210215 18:22:08.955"></status>
+</kw>
+<status status="FAIL" starttime="20210215 18:22:02.870" endtime="20210215 18:22:08.955" critical="yes">No keyword with name 'Login With' found.</status>
+</test>
+<test id="s1-t2" name="Senha Incorreta">
+<kw name="New Page" library="Browser">
+<tags>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+</tags>
+<doc>Open a new Page. A Page is the Playwright equivalent to a tab.
+See `Browser, Context and Page` for more information about Page concept.
+Returns a stable identifier for the created page.</doc>
+<arguments>
+<arg>https://parodify.herokuapp.com/users/sign_in</arg>
+</arguments>
+<msg timestamp="20210215 18:22:14.747" level="INFO">Successfully initialized new page object and opened url: https://parodify.herokuapp.com/users/sign_in</msg>
+<status status="PASS" starttime="20210215 18:22:09.021" endtime="20210215 18:22:14.748"></status>
+</kw>
+<kw name="Login With">
+<arguments>
+<arg>papito@parodify.com</arg>
+<arg>404abc</arg>
+</arguments>
+<msg timestamp="20210215 18:22:14.751" level="FAIL">No keyword with name 'Login With' found.</msg>
+<status status="FAIL" starttime="20210215 18:22:14.751" endtime="20210215 18:22:14.752"></status>
+</kw>
+<kw name="Take Screenshot" library="Browser" type="teardown">
+<tags>
+<tag>PageContent</tag>
+</tags>
+<doc>Takes a screenshot of the current window and saves it to ``path``. Saves it as a png.</doc>
+<msg timestamp="20210215 18:22:15.135" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-12.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-12.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210215 18:22:14.752" endtime="20210215 18:22:15.135"></status>
+</kw>
+<status status="FAIL" starttime="20210215 18:22:09.015" endtime="20210215 18:22:15.136" critical="yes">No keyword with name 'Login With' found.</status>
+</test>
+<test id="s1-t3" name="Email não Existe">
+<kw name="New Page" library="Browser">
+<tags>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+</tags>
+<doc>Open a new Page. A Page is the Playwright equivalent to a tab.
+See `Browser, Context and Page` for more information about Page concept.
+Returns a stable identifier for the created page.</doc>
+<arguments>
+<arg>https://parodify.herokuapp.com/users/sign_in</arg>
+</arguments>
+<msg timestamp="20210215 18:22:18.027" level="INFO">Successfully initialized new page object and opened url: https://parodify.herokuapp.com/users/sign_in</msg>
+<status status="PASS" starttime="20210215 18:22:15.186" endtime="20210215 18:22:18.028"></status>
+</kw>
+<kw name="Login With">
+<arguments>
+<arg>${EMPTY}</arg>
+<arg>404abc</arg>
+</arguments>
+<msg timestamp="20210215 18:22:18.032" level="FAIL">No keyword with name 'Login With' found.</msg>
+<status status="FAIL" starttime="20210215 18:22:18.031" endtime="20210215 18:22:18.032"></status>
+</kw>
+<kw name="Take Screenshot" library="Browser" type="teardown">
+<tags>
+<tag>PageContent</tag>
+</tags>
+<doc>Takes a screenshot of the current window and saves it to ``path``. Saves it as a png.</doc>
+<msg timestamp="20210215 18:22:18.432" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-13.png"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-13.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210215 18:22:18.032" endtime="20210215 18:22:18.432"></status>
+</kw>
+<status status="FAIL" starttime="20210215 18:22:15.179" endtime="20210215 18:22:18.433" critical="yes">No keyword with name 'Login With' found.</status>
+</test>
+<test id="s1-t4" name="Email não Informado">
+<kw name="New Page" library="Browser">
+<tags>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+</tags>
+<doc>Open a new Page. A Page is the Playwright equivalent to a tab.
+See `Browser, Context and Page` for more information about Page concept.
+Returns a stable identifier for the created page.</doc>
+<arguments>
+<arg>https://parodify.herokuapp.com/users/sign_in</arg>
+</arguments>
+<msg timestamp="20210215 18:22:20.917" level="INFO">Successfully initialized new page object and opened url: https://parodify.herokuapp.com/users/sign_in</msg>
+<status status="PASS" starttime="20210215 18:22:18.480" endtime="20210215 18:22:20.918"></status>
+</kw>
+<kw name="Login With">
+<arguments>
+<arg>${EMPTY}</arg>
+<arg>404abc</arg>
+</arguments>
+<msg timestamp="20210215 18:22:20.924" level="FAIL">No keyword with name 'Login With' found.</msg>
+<status status="FAIL" starttime="20210215 18:22:20.924" endtime="20210215 18:22:20.924"></status>
+</kw>
+<kw name="Take Screenshot" library="Browser" type="teardown">
+<tags>
+<tag>PageContent</tag>
+</tags>
+<doc>Takes a screenshot of the current window and saves it to ``path``. Saves it as a png.</doc>
+<msg timestamp="20210215 18:22:21.205" level="WARN">Keyword 'Take Screenshot' could not be run on failure:
+Error: page.screenshot: Target page, context or browser has been closed</msg>
+<msg timestamp="20210215 18:22:21.208" level="FAIL">Error: page.screenshot: Protocol error (Page.captureScreenshot): Target closed.
+Note: use DEBUG=pw:api environment variable and rerun to capture Playwright logs.</msg>
+<status status="FAIL" starttime="20210215 18:22:20.925" endtime="20210215 18:22:21.208">Error: page.screenshot: Protocol error (Page.captureScreenshot): Target closed.
+Note: use DEBUG=pw:api environment variable and rerun to capture Playwright logs.</status>
+</kw>
+<status status="FAIL" starttime="20210215 18:22:18.474" endtime="20210215 18:22:21.209" critical="yes">No keyword with name 'Login With' found.
+
+Also teardown failed:
+Error: page.screenshot: Protocol error (Page.captureScreenshot): Target closed.
+Note: use DEBUG=pw:api environment variable and rerun to capture Playwright logs.</status>
+</test>
+<test id="s1-t5" name="Senha não Informada">
+<kw name="New Page" library="Browser">
+<tags>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+</tags>
+<doc>Open a new Page. A Page is the Playwright equivalent to a tab.
+See `Browser, Context and Page` for more information about Page concept.
+Returns a stable identifier for the created page.</doc>
+<arguments>
+<arg>https://parodify.herokuapp.com/users/sign_in</arg>
+</arguments>

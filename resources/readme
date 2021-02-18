@@ -1,0 +1,23 @@
+============Xpah mais acertivo===========
+a[href$=sing_out] --> href$ = selecione elemento final do href
+
+a[href*=sing_out] --> href* = contaisn, selecione o elemento que contém
+
+a[href^=sing_out] --> href^ começa com
+
+
+=============Documentation - Github and Keywords of Library Browser in robot Framework===============
+https://github.com/MarketSquare/robotframework-browser
+https://marketsquare.github.io/robotframework-browser/Browser.html
+
+
+=============Link Parodyfy===============
+https://parodify.herokuapp.com/
+
+=============Documentation of Playwrigth=======================
+Library Browser é a portabilidade do framework de test da Playwright para Robot Framework (Playwright é um framework node p/ automação de testes) cocorrente do Cypress
+                                        
+https://playwright.dev/ > get started [usage] -- mostra o cód raiz em JS
+
+
+
